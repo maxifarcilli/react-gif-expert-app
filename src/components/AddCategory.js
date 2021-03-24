@@ -17,11 +17,11 @@ const AddCategory = ( { addCategory } ) => {
             setInputValue('');
         }
 
-        console.log('Submit hecho');
     }
 
     return (
         <form onSubmit={ handleSubmit }>
+            
             <input 
                 type="text" 
                 value={ inputValue }
@@ -31,7 +31,7 @@ const AddCategory = ( { addCategory } ) => {
     )
 }
 
-AddCategory.propTypes ={
+AddCategory.propTypes = {
     addCategory: PropTypes.func.isRequired
 }
 

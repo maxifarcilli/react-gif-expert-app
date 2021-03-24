@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas sobre el componente <GifGrid /> Debe de mostrar bien el componente <GifGrid /> 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    test_category
+  </h3>
+  <p>
+    Cargando
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
